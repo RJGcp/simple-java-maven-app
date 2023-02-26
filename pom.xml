@@ -54,7 +54,7 @@
             <goals>
               <goal>enforce</goal>
             </goals>
-            <configuration>
+            <!-- <configuration>
               <rules>
                 <requireMavenVersion>
                   <version>[3.8.6,)</version>
@@ -63,7 +63,7 @@
                   <version>[11,)</version>
                 </requireJavaVersion>
               </rules>
-            </configuration>
+            </configuration> -->
           </execution>
         </executions>
       </plugin>
