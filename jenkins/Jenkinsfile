@@ -1,5 +1,5 @@
 pipeline {
-    agent 3.108.237.58
+    agent ravijpriya
    // agent {
    //     docker {
     //        image 'maven:3-alpine'
