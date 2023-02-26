@@ -1,7 +1,7 @@
 pipeline {
     agent {
-        label{
-            'ravijpriya'
+        node {
+            label 'ravijpriya'
         }
     }
    // agent {
