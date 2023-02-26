@@ -1,5 +1,9 @@
 pipeline {
-    agent ravijpriya
+    agent {
+        label{
+            'ravijpriya'
+        }
+    }
    // agent {
    //     docker {
     //        image 'maven:3-alpine'
