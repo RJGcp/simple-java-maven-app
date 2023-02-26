@@ -21,6 +21,11 @@ pipeline {
                 }
             }
         }
+        stage('Mutation Tests - PIT') {
+             steps {
+                 sh "mvn org.pitest:pitest-maven:mutationCoverage"
+                   }
+        }
         stage('Deliver') {
             steps {
                 sh './jenkins/scripts/deliver.sh'
